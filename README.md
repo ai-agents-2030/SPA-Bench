@@ -39,7 +39,7 @@ git clone --recurse-submodules https://github.com/ai-agents-2030/SPA-Bench.git
 * **📱 Scalable Design** – Multi-device support & Emulator Compatibility
 * **📸 Android Snapshot** – Local Environment Setup and Data Reset for Consistent Testing
 
-### ✅ Automatic Evaluation Pipeline
+### ✅ Automatic and Scalable Evaluation Pipeline
 * **🔍 7 Evaluation Metrics** for a Comprehensive Analysis
 * **📐 Coarse-and-Fine Success Detection** – Requires No Further Human Effort
 * **🔀 Trajectory Splitting & Subtask Evaluation** – Tailored for Long-Sequence Tasks
