@@ -1,0 +1,15 @@
+{
+    "task_description": "在华为浏览器中搜索“最新款华为mate系列手机叫什么”，并在淘宝中搜索该型号的手机后将其加入购物车",
+    "subtask_1": {
+        "app": "华为浏览器",
+        "task": "搜索“最新款华为mate系列手机叫什么”",
+        "history": false,
+        "memory": "最新款华为mate系列手机"
+    },
+    "subtask_2": {
+        "app": "淘宝",
+        "task": "搜索{最新款华为mate系列手机}并将其加入购物车",
+        "history": true,
+        "memory": "None"
+    }
+}

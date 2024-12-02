@@ -1,0 +1,15 @@
+{
+    "task_description": "Use the social media platform X to post a photo, copy the link to your post, then open Facebook and send the link to a friend",
+    "subtask_1": {
+        "app": "X",
+        "task": "Post a photo, copy the link to your post",
+        "history": false,
+        "memory": "link to the post"
+    },
+    "subtask_2": {
+        "app": "Facebook",
+        "task": "Send {link to the post} to a friend",
+        "history": true,
+        "memory": "None"
+    }
+}

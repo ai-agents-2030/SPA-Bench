@@ -1,0 +1,21 @@
+{
+    "task_description": "Search for a relaxing soundscape video on YouTube, use the Clock app to set a timer for 3 hours, then go back to YouTube and play the video.",
+    "subtask_1": {
+        "app": "YouTube",
+        "task": "Search for a relaxing soundscape video",
+        "history": false,
+        "memory": "relaxing soundscape video"
+    },
+    "subtask_2": {
+        "app": "Clock",
+        "task": "Set a timer for 3 hours",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_3": {
+        "app": "YouTube",
+        "task": "Play the {relaxing soundscape video}",
+        "history": true,
+        "memory": "None"
+    }
+}

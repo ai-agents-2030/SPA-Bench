@@ -1,0 +1,15 @@
+{
+    "task_description": "Watch a YouTube video about fitness tracking app recommendations, check the video's description for the suggested apps, then use Google Play Store to download one of the suggested apps.",
+    "subtask_1": {
+        "app": "YouTube",
+        "task": "Watch a video about fitness tracking app recommendations, check the video's description for the suggested apps",
+        "history": false,
+        "memory": "suggested apps"
+    },
+    "subtask_2": {
+        "app": "Google Play Store",
+        "task": "Download one of the {suggested apps}",
+        "history": true,
+        "memory": "None"
+    }
+}

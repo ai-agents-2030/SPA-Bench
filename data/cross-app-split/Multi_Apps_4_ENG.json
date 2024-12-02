@@ -1,0 +1,21 @@
+{
+    "task_description": "Utilize Expedia to search for Things to do in Beijing on 18-20th, choose one and record the sharing text using Evernote, open AccuWeather to check daily weather in Beijing.",
+    "subtask_1": {
+        "app": "Expedia",
+        "task": "Search for Things to do in Beijing on 18-20th and choose one",
+        "history": false,
+        "memory": "sharing text"
+    },
+    "subtask_2": {
+        "app": "Evernote",
+        "task": "Record the {sharing text}",
+        "history": true,
+        "memory": "None"
+    },
+    "subtask_3": {
+        "app": "AccuWeather",
+        "task": "Check daily weather in Beijing",
+        "history": false,
+        "memory": "None"
+    }
+}

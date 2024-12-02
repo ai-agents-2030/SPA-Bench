@@ -1,0 +1,21 @@
+{
+    "task_description": "Investigate the prices for Catan board game across Amazon and Temu, then proceed to add the cheaper option into your cart.",
+    "subtask_1": {
+        "app": "Amazon",
+        "task": "Search for the prices of Catan board game",
+        "history": false,
+        "memory": "Catan price on Amazon"
+    },
+    "subtask_2": {
+        "app": "Temu",
+        "task": "Search for the prices of Catan board game",
+        "history": false,
+        "memory": "Catan price on Temu"
+    },
+    "subtask_3": {
+        "app": "Amazon/Temu",
+        "task": "Add Catan to cart if Amazon/Temu's price is cheaper based on Amazon price {Catan price on Amazon} and Temu price {Catan price on Temu} comparison",
+        "history": true,
+        "memory": "None"
+    }
+}

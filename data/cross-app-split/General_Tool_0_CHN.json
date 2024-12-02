@@ -1,0 +1,15 @@
+{
+    "task_description": "打开饿了么，搜索“汉堡包”，然后进入设置APP，在应用中找到饿了么，关闭后台运行权限",
+    "subtask_1": {
+        "app": "饿了么",
+        "task": "搜索“汉堡包”",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "设置",
+        "task": "在应用中找到饿了么，关闭后台运行权限",
+        "history": false,
+        "memory": "None"
+    }
+}

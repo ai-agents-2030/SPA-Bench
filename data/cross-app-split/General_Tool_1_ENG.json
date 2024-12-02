@@ -1,0 +1,15 @@
+{
+    "task_description": "Use the LinkedIn app to search for a customer service representative position. Select a job, open Keep Notes, create a new note, record the company's name, and set the note's title to 'customer service representative'.",
+    "subtask_1": {
+        "app": "LinkedIn",
+        "task": "Search for a customer service representative position and select a job",
+        "history": false,
+        "memory": "company's name"
+    },
+    "subtask_2": {
+        "app": "Keep Notes",
+        "task": "Create a new note, record {company's name}, and set the note's title to 'customer service representative'",
+        "history": true,
+        "memory": "None"
+    }
+}

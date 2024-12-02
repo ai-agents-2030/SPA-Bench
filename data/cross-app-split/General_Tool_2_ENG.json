@@ -1,0 +1,15 @@
+{
+    "task_description": "In the Settings app, enable 'Data Saver' mode. Open the Clock app and set an alarm for 6:00 AM.",
+    "subtask_1": {
+        "app": "Settings",
+        "task": "Enable 'Data Saver' mode",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "Clock",
+        "task": "Set an alarm for 6:00 AM",
+        "history": false,
+        "memory": "None"
+    }
+}

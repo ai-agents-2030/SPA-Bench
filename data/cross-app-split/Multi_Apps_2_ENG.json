@@ -1,0 +1,27 @@
+{
+    "task_description": "First, install the Triller app from the Google Play Store. After the installation, open the Triller app, navigate to the Setting app to check current battery status, reopen the Triller app.",
+    "subtask_1": {
+        "app": "Google Play Store",
+        "task": "Install the Triller app",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "Triller",
+        "task": "Open the Triller app",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_3": {
+        "app": "Settings",
+        "task": "Check current battery status",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_4": {
+        "app": "Triller",
+        "task": "Reopen the Triller app",
+        "history": false,
+        "memory": "None"
+    }
+}

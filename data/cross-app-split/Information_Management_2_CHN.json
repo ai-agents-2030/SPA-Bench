@@ -1,0 +1,15 @@
+{
+    "task_description": "打开小红书，搜索“冬日美景”，保存一张图片，然后在设置中将保存的图片更换为新的壁纸",
+    "subtask_1": {
+        "app": "小红书",
+        "task": "搜索“冬日美景”并保存一张图片",
+        "history": false,
+        "memory": "保存的图片"
+    },
+    "subtask_2": {
+        "app": "设置",
+        "task": "将{保存的图片}更换为新的壁纸",
+        "history": true,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "task_description": "Organize a movie night by choosing a horror film using Chrome, sending an invitation to one of your friends via Instagram, and setting a reminder in the Clock app for 8:35 PM on Sunday.",
+    "subtask_1": {
+        "app": "Chrome",
+        "task": "Choose a horror film",
+        "history": false,
+        "memory": "horror film"
+    },
+    "subtask_2": {
+        "app": "Instagram",
+        "task": "Send a movie night invitation about {horror film} to a friend",
+        "history": true,
+        "memory": "None"
+    },
+    "subtask_3": {
+        "app": "Clock",
+        "task": "Set a reminder for 8:35 PM on Sunday",
+        "history": false,
+        "memory": "None"
+    }
+}

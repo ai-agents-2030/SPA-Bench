@@ -1,0 +1,21 @@
+{
+    "task_description": "在华为浏览器中搜索“贝塞斯达最成功的游戏是什么”，然后在bilibili搜索任意一个有关该游戏的视频，观看视频并分享到QQ空间",
+    "subtask_1": {
+        "app": "华为浏览器",
+        "task": "搜索“贝塞斯达最成功的游戏是什么”",
+        "history": false,
+        "memory": "贝塞斯达最成功的游戏"
+    },
+    "subtask_2": {
+        "app": "Bilibili",
+        "task": "搜索一个有关{贝塞斯达最成功的游戏}的视频，观看视频",
+        "history": true,
+        "memory": "该视频"
+    },
+    "subtask_3": {
+        "app": "QQ",
+        "task": "分享{该视频}到QQ空间",
+        "history": true,
+        "memory": "None"
+    }
+}

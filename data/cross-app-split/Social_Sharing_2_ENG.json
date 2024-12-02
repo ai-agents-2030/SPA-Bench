@@ -1,0 +1,15 @@
+{
+    "task_description": "Listen to a Reggaeton album on Spotify, then share the album's name with a friend on Facebook.",
+    "subtask_1": {
+        "app": "Spotify",
+        "task": "Listen to a Reggaeton album",
+        "history": false,
+        "memory": "album's name"
+    },
+    "subtask_2": {
+        "app": "Facebook",
+        "task": "Share the {album's name} with a friend",
+        "history": true,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "task_description": "分别在淘宝和京东搜索\"华为Mate60Pro\"，然后在腾讯文档里新建一个\"华为Mate60Pro\"价格的文档，把淘宝和京东搜索到的价格记录下来",
+    "subtask_1": {
+        "app": "淘宝",
+        "task": "搜索'华为Mate60Pro'的价格",
+        "history": false,
+        "memory": "华为Mate60Pro价格_淘宝"
+    },
+    "subtask_2": {
+        "app": "京东",
+        "task": "搜索'华为Mate60Pro'的价格",
+        "history": false,
+        "memory": "华为Mate60Pro价格_京东"
+    },
+    "subtask_3": {
+        "app": "腾讯文档",
+        "task": "新建一个'华为Mate60Pro'价格的文档，并记录{华为Mate60Pro价格_淘宝}和{华为Mate60Pro价格_京东}",
+        "history": true,
+        "memory": "None"
+    }
+}

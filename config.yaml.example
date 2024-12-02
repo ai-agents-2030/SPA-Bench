@@ -1,0 +1,26 @@
+# Environment configs
+ADB_PATH: "adb.exe" # Modify the path
+EMULATOR_PATH: "emulator.exe" # Modify the path
+ANDROID_SDK_PATH: "C:\\Users\\User\\AppData\\Local\\Android\\Sdk" # Modify the path
+RESULTS_DIR: "./results"
+SESSION_ID: "first-session"
+DATASET_PATH: "./benchmark/data.csv"
+
+# Device / Emulator configs
+DEFAULT_KEYBOARD_PACKAGE: "com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME"
+SYS_AVD_HOME: "C:\\Users\\User\\.android\\avd"
+SOURCE_AVD_HOME: "./framework/AVD"
+SOURCE_AVD_NAME: "Benchmark-Eng-API32-12GB"
+NUM_OF_EMULATOR: 4
+MAX_EVAL_SUBPROCESS: 8
+
+# General agent configs
+OPENAI_API_MODEL: "gpt-4o" # Leave blank to use default model
+MAX_ROUNDS: 0
+
+# Agent-specific configs
+AGENTS:
+  - NAME: "AppAgent"
+    REPO_PATH: "./framework/models/AppAgent"
+    ENV_NAME: "AppAgent"
+    # `NAME`, `REPO_PATH`, `ENV_NAME` are necessary for every agent

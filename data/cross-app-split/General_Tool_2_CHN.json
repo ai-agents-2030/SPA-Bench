@@ -1,0 +1,15 @@
+{
+    "task_description": "进入设置，切换到深色模式，然后打开微信，将深色模式设置为“跟随系统”",
+    "subtask_1": {
+        "app": "设置",
+        "task": "切换到深色模式",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "微信",
+        "task": "将深色模式设置为“跟随系统”",
+        "history": false,
+        "memory": "None"
+    }
+}

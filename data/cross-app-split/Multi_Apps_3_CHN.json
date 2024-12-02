@@ -1,0 +1,21 @@
+{
+    "task_description": "打开去哪儿APP搜索深圳酒店，切换到航旅纵横查看某天从北京飞往深圳的机票，并将其中一张机票分享给微信好友",
+    "subtask_1": {
+        "app": "去哪儿",
+        "task": "搜索深圳酒店",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "航旅纵横",
+        "task": "查看某天从北京飞往深圳的机票",
+        "history": false,
+        "memory": "北京飞往深圳的机票列表"
+    },
+    "subtask_3": {
+        "app": "微信",
+        "task": "分享{北京飞往深圳的机票列表}中的一张机票给微信好友",
+        "history": true,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "task_description": "Open Chrome, search for the top Country songs of 2023, identify a song from the search results, then switch to Spotify and add that song to your playlist.",
+    "subtask_1": {
+        "app": "Chrome",
+        "task": "Search for the top Country songs of 2023, identify a song from the search results",
+        "history": false,
+        "memory": "a top Country song of 2023"
+    },
+    "subtask_2": {
+        "app": "Spotify",
+        "task": "Add {a top Country song of 2023} to your playlist",
+        "history": true,
+        "memory": "None"
+    }
+}

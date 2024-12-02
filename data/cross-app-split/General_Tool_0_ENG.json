@@ -1,0 +1,15 @@
+{
+    "task_description": "Open Google Play Store, uninstall the Alibaba.com app, then go to Settings and verify if the app is still listed under app resources.",
+    "subtask_1": {
+        "app": "Google Play Store",
+        "task": "Uninstall the Alibaba.com app",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "Settings",
+        "task": "Verify if the Alibaba.com app is still listed under app resources",
+        "history": false,
+        "memory": "None"
+    }
+}

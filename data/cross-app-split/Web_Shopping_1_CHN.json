@@ -1,0 +1,15 @@
+{
+    "task_description": "在小红书上找到一款2024年推荐的运动相机，然后前往淘宝，将该商品加入购物车",
+    "subtask_1": {
+        "app": "小红书",
+        "task": "找到一款2024年推荐的运动相机",
+        "history": false,
+        "memory": "运动相机"
+    },
+    "subtask_2": {
+        "app": "淘宝",
+        "task": "将{运动相机}加入购物车",
+        "history": true,
+        "memory": "None"
+    }
+}

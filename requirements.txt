@@ -1,0 +1,8 @@
+pyyaml
+pandas
+python-dotenv
+pre-commit
+paddlepaddle
+paddleocr>=2.0.1
+openai
+faiss-cpu

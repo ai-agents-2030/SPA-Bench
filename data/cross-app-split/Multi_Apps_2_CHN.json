@@ -1,0 +1,21 @@
+{
+    "task_description": "在美团搜索一家附近的餐厅，用高德地图查找驾车路线，把路线分享到微信朋友圈",
+    "subtask_1": {
+        "app": "美团",
+        "task": "搜索一家附近的餐厅",
+        "history": false,
+        "memory": "餐厅"
+    },
+    "subtask_2": {
+        "app": "高德地图",
+        "task": "查找驾车路线到{餐厅}",
+        "history": true,
+        "memory": "驾车路线"
+    },
+    "subtask_3": {
+        "app": "微信",
+        "task": "把{驾车路线}分享到朋友圈",
+        "history": true,
+        "memory": "None"
+    }
+}

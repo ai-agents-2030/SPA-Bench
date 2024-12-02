@@ -1,0 +1,15 @@
+{
+    "task_description": "Search for 'Circe by Madeline Miller' on Facebook, read one of the posts, head over to eBay, search the book, add it to watchlist.",
+    "subtask_1": {
+        "app": "Facebook",
+        "task": "Search for 'Circe by Madeline Miller' and read one of the posts",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "eBay",
+        "task": "Search 'Circe by Madeline Miller' and add it to watchlist",
+        "history": false,
+        "memory": "None"
+    }
+}

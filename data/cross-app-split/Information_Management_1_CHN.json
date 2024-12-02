@@ -1,0 +1,15 @@
+{
+    "task_description": "在华为浏览器中搜索 2024年的热门流行歌曲，选择一首歌曲后，切换到QQ音乐并将该歌曲添加到您的播放列表中",
+    "subtask_1": {
+        "app": "华为浏览器",
+        "task": "搜索2024年的热门流行歌曲，选择一首歌曲",
+        "history": false,
+        "memory": "选择的歌曲"
+    },
+    "subtask_2": {
+        "app": "QQ音乐",
+        "task": "将{选择的歌曲}添加到您的播放列表中",
+        "history": true,
+        "memory": "None"
+    }
+}

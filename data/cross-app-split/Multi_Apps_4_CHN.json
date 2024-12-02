@@ -1,0 +1,21 @@
+{
+    "task_description": "在华为浏览器中搜索“英伟达最强专业计算卡”，在淘宝中搜索该计算卡并查看商品详情，保存预览图到图库，最后在图库查看这张图片",
+    "subtask_1": {
+        "app": "华为浏览器",
+        "task": "搜索“英伟达最强专业计算卡”",
+        "history": false,
+        "memory": "英伟达最强专业计算卡"
+    },
+    "subtask_2": {
+        "app": "淘宝",
+        "task": "搜索{英伟达最强专业计算卡}并查看商品详情，保存预览图到图库",
+        "history": true,
+        "memory": "预览图"
+    },
+    "subtask_3": {
+        "app": "图库",
+        "task": "查看{预览图}",
+        "history": true,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "task_description": "打开QQ音乐，搜索周杰伦，查看他的主页，记录下一首歌曲，并在bilibili中搜索该歌曲相关的视频",
+    "subtask_1": {
+        "app": "QQ音乐",
+        "task": "搜索周杰伦，查看他的主页，记录下一首歌曲",
+        "history": false,
+        "memory": "一首歌曲名称"
+    },
+    "subtask_2": {
+        "app": "Bilibili",
+        "task": "搜索{一首歌曲名称}相关的视频",
+        "history": true,
+        "memory": "None"
+    }
+}

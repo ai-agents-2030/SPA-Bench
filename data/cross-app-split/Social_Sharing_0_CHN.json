@@ -1,0 +1,15 @@
+{
+    "task_description": "在bilibili中搜索“自制关卡 胆小菇之梦”，点击进入任意一个视频，分享该视频到qq空间",
+    "subtask_1": {
+        "app": "Bilibili",
+        "task": "搜索“自制关卡 胆小菇之梦”，点击进入任意一个视频",
+        "history": false,
+        "memory": "该视频"
+    },
+    "subtask_2": {
+        "app": "QQ",
+        "task": "分享{该视频}到QQ空间",
+        "history": true,
+        "memory": "None"
+    }
+}

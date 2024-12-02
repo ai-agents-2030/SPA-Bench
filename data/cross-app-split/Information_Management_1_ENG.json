@@ -1,0 +1,15 @@
+{
+    "task_description": "Using Chrome, search for the date of the next Winter Olympics opening ceremony and then set a reminder for that date in your Calendar.",
+    "subtask_1": {
+        "app": "Chrome",
+        "task": "Search for the date of the next Winter Olympics opening ceremony",
+        "history": false,
+        "memory": "Winter Olympics opening ceremony date"
+    },
+    "subtask_2": {
+        "app": "Calendar",
+        "task": "Set a reminder for the {Winter Olympics opening ceremony date}",
+        "history": true,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "task_description": "Open Facebook, search for tropical pictures, save one picture to your phone, go to the Wallpaper section in the Settings app, and set the saved picture as your wallpaper.",
+    "subtask_1": {
+        "app": "Facebook",
+        "task": "Search for tropical pictures and save one picture to your phone",
+        "history": false,
+        "memory": "saved picture"
+    },
+    "subtask_2": {
+        "app": "Settings",
+        "task": "Go to the Wallpaper section and set the {saved picture} as your wallpaper",
+        "history": true,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,21 @@
+﻿task_identifier,category,task_language,task_app,task_description,task_difficulty,golden_steps,is_cross_app
+General_Tool_0_CHN,General_Tool,CHN,"['饿了么','设置']",打开饿了么，搜索“汉堡包”，然后进入设置APP，在应用中找到饿了么，关闭后台运行权限,1,10,Y
+General_Tool_1_CHN,General_Tool,CHN,"['设置','抖音']",在设置APP中开启省流模式，然后打开抖音,1,6,Y
+General_Tool_2_CHN,General_Tool,CHN,"['微信','设置']",进入设置，切换到深色模式，然后打开微信，将深色模式设置为“跟随系统”,1,12,Y
+Information_Management_0_CHN,Information_Management,CHN,"['华为浏览器','bilibili']",在华为浏览器中搜索“地球上最大的动物是”，然后在bilibili中搜索这种动物的视频并停留在搜索结果界面,1,9,Y
+Information_Management_1_CHN,Information_Management,CHN,"['华为浏览器','QQ音乐']",在华为浏览器中搜索 2024年的热门流行歌曲，选择一首歌曲后，切换到QQ音乐并将该歌曲添加到您的播放列表中,1,11,Y
+Information_Management_2_CHN,Information_Management,CHN,"['小红书','设置']",打开小红书，搜索“冬日美景”，保存一张图片，然后在设置中将保存的图片更换为新的壁纸,1,18,Y
+Media_Entertainment_0_CHN,Media_Entertainment,CHN,"['华为浏览器','QQ音乐']",在华为浏览器中搜索“歌曲七里香的作者是谁”，然后在QQ音乐中搜索这名歌手，进入歌手主页，播放任意一首歌并进入该歌曲的主页,1,12,Y
+Media_Entertainment_1_CHN,Media_Entertainment,CHN,"['抖音','微博']",利用抖音搜索“BLACKPINK”，观看任意一个视频，然后去微博搜索BLACKPINK账号并关注,1,16,Y
+Media_Entertainment_2_CHN,Media_Entertainment,CHN,"['QQ音乐','bilibili']",打开QQ音乐，搜索周杰伦，查看他的主页，记录下一首歌曲，并在bilibili中搜索该歌曲相关的视频,1,10,Y
+Multi_Apps_0_CHN,Multi_Apps,CHN,"['华为浏览器','bilibili','QQ']",在华为浏览器中搜索“贝塞斯达最成功的游戏是什么”，然后在bilibili搜索任意一个有关该游戏的视频，观看视频并分享到QQ空间,2,14,Y
+Multi_Apps_1_CHN,Multi_Apps,CHN,"['淘宝','京东','腾讯文档']","分别在淘宝和京东搜索""华为Mate60Pro""，然后在腾讯文档里新建一个""华为Mate60Pro""价格的文档，把淘宝和京东搜索到的价格记录下来",2,18,Y
+Multi_Apps_2_CHN,Multi_Apps,CHN,"['高德地图','美团','微信']",在美团搜索一家附近的餐厅，用高德地图查找驾车路线，把路线分享到微信朋友圈,2,18,Y
+Multi_Apps_3_CHN,Multi_Apps,CHN,"['去哪儿','航旅纵横','微信']",打开去哪儿APP搜索深圳酒店，切换到航旅纵横查看某天从北京飞往深圳的机票，并将其中一张机票分享给微信好友,2,21,Y
+Multi_Apps_4_CHN,Multi_Apps,CHN,"['华为浏览器','淘宝','图库']",在华为浏览器中搜索“英伟达最强专业计算卡”，在淘宝中搜索该计算卡并查看商品详情，保存预览图到图库，最后在图库查看这张图片,2,16,Y
+Social_Sharing_0_CHN,Social_Sharing,CHN,"['bilibili','QQ']",在bilibili中搜索“自制关卡 胆小菇之梦”，点击进入任意一个视频，分享该视频到qq空间,1,9,Y
+Social_Sharing_1_CHN,Social_Sharing,CHN,"['小红书','QQ音乐']",在QQ音乐上播放一首周杰伦的歌，然后将音乐分享到小红书，发布笔记,1,10,Y
+Social_Sharing_2_CHN,Social_Sharing,CHN,"['知乎','微博']",在知乎查看热榜，进入任意一个问题，然后将其转发到微博,1,11,Y
+Web_Shopping_0_CHN,Web_Shopping,CHN,"['知乎','京东']",在知乎中搜索“1000元以下音箱推荐”，并在京东搜索其中提到的一款音箱，选择一个加入购物车,1,14,Y
+Web_Shopping_1_CHN,Web_Shopping,CHN,"['小红书','淘宝']",在小红书上找到一款2024年推荐的运动相机，然后前往淘宝，将该商品加入购物车,1,14,Y
+Web_Shopping_2_CHN,Web_Shopping,CHN,"['华为浏览器','淘宝']",在华为浏览器中搜索“最新款华为mate系列手机叫什么”，并在淘宝中搜索该型号的手机后将其加入购物车,1,14,Y

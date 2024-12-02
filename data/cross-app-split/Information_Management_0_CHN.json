@@ -1,0 +1,15 @@
+{
+    "task_description": "在华为浏览器中搜索“地球上最大的动物是”，然后在bilibili中搜索这种动物的视频并停留在搜索结果界面",
+    "subtask_1": {
+        "app": "华为浏览器",
+        "task": "搜索“地球上最大的动物是”",
+        "history": false,
+        "memory": "地球上最大的动物"
+    },
+    "subtask_2": {
+        "app": "Bilibili",
+        "task": "搜索{地球上最大的动物}的视频并停留在搜索结果界面",
+        "history": true,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "task_description": "Arrange a business meeting using Zoom, copy the sharing text, go to WhatsApp, send the copied text to a contact, set an alarm using the Clock app at the meeting time.",
+    "subtask_1": {
+        "app": "Zoom",
+        "task": "Arrange a business meeting and copy the sharing text",
+        "history": false,
+        "memory": "Zoom sharing text"
+    },
+    "subtask_2": {
+        "app": "WhatsApp",
+        "task": "Send the copied text to a contact",
+        "history": true,
+        "memory": "None"
+    },
+    "subtask_3": {
+        "app": "Clock",
+        "task": "Set an alarm at the meeting time",
+        "history": false,
+        "memory": "None"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "task_description": "Use Instagram to search for an itinerary for Venice, Italy, and then proceed Airbnb, book accommodations at Venice, Italy.",
+    "subtask_1": {
+        "app": "Instagram",
+        "task": "Search for an itinerary for Venice, Italy",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "Airbnb",
+        "task": "Book accommodations at Venice, Italy",
+        "history": false,
+        "memory": "None"
+    }
+}

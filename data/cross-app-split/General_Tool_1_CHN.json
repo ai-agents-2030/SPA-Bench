@@ -1,0 +1,15 @@
+{
+    "task_description": "在设置APP中开启省流模式，然后打开抖音",
+    "subtask_1": {
+        "app": "设置",
+        "task": "开启省流模式",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "抖音",
+        "task": "打开抖音",
+        "history": false,
+        "memory": "None"
+    }
+}

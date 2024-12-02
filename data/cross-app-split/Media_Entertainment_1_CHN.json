@@ -1,0 +1,15 @@
+{
+    "task_description": "利用抖音搜索“BLACKPINK”，观看任意一个视频，然后去微博搜索BLACKPINK账号并关注",
+    "subtask_1": {
+        "app": "抖音",
+        "task": "搜索“BLACKPINK”并观看任意一个视频",
+        "history": false,
+        "memory": "None"
+    },
+    "subtask_2": {
+        "app": "微博",
+        "task": "搜索BLACKPINK账号并关注",
+        "history": false,
+        "memory": "None"
+    }
+}

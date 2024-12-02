@@ -1,0 +1,15 @@
+{
+    "task_description": "Use the BBC News app to search for Artificial Intelligence news, read an article, share it via Gmail, send to agent.benchmark.2024@gmail.com.",
+    "subtask_1": {
+        "app": "BBC News",
+        "task": "Search for Artificial Intelligence news and read an article",
+        "history": false,
+        "memory": "Artificial Intelligence article"
+    },
+    "subtask_2": {
+        "app": "Gmail",
+        "task": "Share {Artificial Intelligence article} to agent.benchmark.2024@gmail.com",
+        "history": true,
+        "memory": "None"
+    }
+}

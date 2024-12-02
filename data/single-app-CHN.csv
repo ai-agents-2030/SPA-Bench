@@ -1,0 +1,151 @@
+﻿task_identifier,task_app,task_app_CHN,task_language,task_description,task_difficulty,golden_steps,key_component_final,adb_app,adb_home_page,is_cross_app
+alipay_0,alipay,支付宝,CHN,搜索汇率换算。,1,3,['汇率换算'],com.eg.android.AlipayGphone,com.eg.android.AlipayGphone.AlipayLogin,N
+alipay_1,alipay,支付宝,CHN,进入汇率换算小程序，查看港币兑欧元汇率。,2,9,"['港币','欧元']",com.eg.android.AlipayGphone,com.eg.android.AlipayGphone.AlipayLogin,N
+alipay_2,alipay,支付宝,CHN,进入汇率换算小程序，查看港币兑欧元汇率。计算100港币 可以兑换多少欧元。,3,13,"['港币','欧元','100']",com.eg.android.AlipayGphone,com.eg.android.AlipayGphone.AlipayLogin,N
+bilibili_0,bilibili,哔哩哔哩,CHN,搜索关键词“游戏解说”,1,3,"['游戏解说', '搜索']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_1,bilibili,哔哩哔哩,CHN,搜索关键词“游戏解说”，对搜索结果按播放量排序，选择一个视频。,2,7,"['简介', '评论']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_2,bilibili,哔哩哔哩,CHN,搜索关键词“游戏解说”，对搜索结果按播放量排序，选择一个视频，并对它点赞、收藏，编辑评论“哈哈”。,3,12,"['哈哈', '发布']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_3,bilibili,哔哩哔哩,CHN,查看公开课分区，展示学科课程栏目的内容。,1,3,"['公开课', '学科课程']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_4,bilibili,哔哩哔哩,CHN,查看公开课分区，展示学科课程栏目的内容，查看交叉学科相关的视频，并按照收藏数排序。,2,6,"['公开课', '学科课程', '收藏最多']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_5,bilibili,哔哩哔哩,CHN,查看公开课分区，展示学科课程栏目的内容，查看交叉学科相关的视频，并按照收藏数排序，在收藏量最高的视频下面发送评论“好好好”。（停留在评论发送页面）,3,10,"['好好好', '发布']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_6,bilibili,哔哩哔哩,CHN,浏览个人消息通知。,1,1,"['消息', '聊天列表']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_7,bilibili,哔哩哔哩,CHN,浏览个人消息通知，挑选一个聊天，查看好友动态。,2,5,['动态'],tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+bilibili_8,bilibili,哔哩哔哩,CHN,浏览个人消息通知，挑选一个聊天，查看好友动态，点赞好友的一条动态，编辑评论“哈哈”。,3,9,"['评论', '哈哈']",tv.danmaku.bili,tv.danmaku.bili.MainActivityV2,N
+cainiaoguoguo_0,cainiaoguoguo,菜鸟裹裹,CHN,在我的页面中查看“收货地址”,1,2,['地址'],com.cainiao.cnintl4android,com.cainiao.wireless.homepage.view.activity.launch.WelcomeActivity,N
+cainiaoguoguo_1,cainiaoguoguo,菜鸟裹裹,CHN,在我的页面中选择收货地址，选择添加收货地址，姓名输入张三，手机号输入123456789,2,7,"['收货地址', '收件人', '张三']",com.cainiao.cnintl4android,com.cainiao.wireless.homepage.view.activity.launch.WelcomeActivity,N
+cainiaoguoguo_2,cainiaoguoguo,菜鸟裹裹,CHN,在我的页面中选择收货地址，选择添加收货地址，姓名输入张三，手机号输入123456789，详细地址输入无，地区选择九龙的九龙城区，然后保存这个收货地址。,3,13,"['我的地址', '张三', '九龙城区']",com.cainiao.cnintl4android,com.cainiao.wireless.homepage.view.activity.launch.WelcomeActivity,N
+calendar_0,calendar,万年历,CHN,查看今天的黄历，然后查看今天的运程。,1,2,"['黄历', '运程']",com.youloft.calendar,com.youloft.LauncherActivity,N
+calendar_1,calendar,万年历,CHN,查看今天的黄历，然后查看今天的运程。然后在“工具”页面中打开“择吉日”，然后查看“出行”的吉日。,2,5,['宜出行'],com.youloft.calendar,com.youloft.LauncherActivity,N
+calendar_2,calendar,万年历,CHN,查看今天的黄历，然后查看今天的运程。然后在“工具”页面中打开“择吉日”，然后查看“出行”的吉日，然后将开始日期调整为下个月，并且设置“只看周末”。,3,9,"['宜出行', '星期日', '星期六']",com.youloft.calendar,com.youloft.LauncherActivity,N
+deskclock_0,deskclock,时钟,CHN,新建闹钟，设置在每个星期一重复，然后停止操作,1,4,"['重复', '一']",com.android.deskclock,com.android.deskclock.DeskClockTabActivity,N
+deskclock_1,deskclock,时钟,CHN,新建闹钟，设置在每个星期一重复，修改标签（备注）或闹钟名为“一个闹钟”，然后停止操作,2,7,"['闹钟', '一个闹钟']",com.android.deskclock,com.android.deskclock.DeskClockTabActivity,N
+deskclock_2,deskclock,时钟,CHN,新建闹钟，设置在每个星期一重复，修改标签（备注）或闹钟名为“一个闹钟”，更换一个铃声音乐，保存闹钟,3,11,"['闹钟', '响铃']",com.android.deskclock,com.android.deskclock.DeskClockTabActivity,N
+dianxin_0,dianxin,电信,CHN,进入查询办理，查看自己的积分，费用与用量（不分先后）,1,3,"['查用量', '查费用', '查积分']",com.ct.client,com.ct.client.activity.SplashActivity,N
+dianxin_1,dianxin,电信,CHN,进入查询办理，查看自己的积分，费用与用量（不分先后），随后查看自己的话费账单并充值10元额度（停在选择支付方式界面）,2,6,"['支付方式', '确认交易']",com.ct.client,com.ct.client.activity.SplashActivity,N
+dianxin_2,dianxin,电信,CHN,进入查询办理，查看自己的积分，费用与用量（不分先后），随后查看自己的话费账单并充值10元额度（停在选择支付方式界面），选择微信支付选项并停在立即支付界面前，不要付钱,3,9,"['中国电信', '立即支付']",com.ct.client,com.ct.client.activity.SplashActivity,N
+dianxin_3,dianxin,电信,CHN,进入用户中心的个人信息页面。,1,2,"['我的','账户信息']",com.ct.client,com.ct.client.activity.SplashActivity,N
+dianxin_4,dianxin,电信,CHN,进入用户中心的个人信息页面，设置电信签名为5G开启，梦想加速。,2,5,"['5G开启', '梦想加速']",com.ct.client,com.ct.client.activity.SplashActivity,N
+dianxin_5,dianxin,电信,CHN,进入用户中心的个人信息页面（如果需要登录则登录账号），设置电信签名为5G开启，梦想加速，最后从本地相册选择一张图片设置为个人头像。,3,9,['操作成功'],com.ct.client,com.ct.client.activity.SplashActivity,N
+douyin_0,douyin,抖音,CHN,搜索博主张国伟,1,3,"['张国伟', '关注']",com.ss.android.ugc.aweme,com.ss.android.ugc.aweme.splash.SplashActivity,N
+douyin_1,douyin,抖音,CHN,搜索博主张国伟，查看博主主页并查看其中一条视频，点赞该视频,2,6,['张国伟'],com.ss.android.ugc.aweme,com.ss.android.ugc.aweme.splash.SplashActivity,N
+douyin_2,douyin,抖音,CHN,搜索博主张国伟，查看博主主页并查看其中一条视频，点赞该视频任意一条评论，并关注主播,3,13,"['张国伟', '已关注', '私信']",com.ss.android.ugc.aweme,com.ss.android.ugc.aweme.splash.SplashActivity,N
+douyin_3,douyin,抖音,CHN,进入关注界面，查看关注博主的主页,1,3,['已关注'],com.ss.android.ugc.aweme,com.ss.android.ugc.aweme.splash.SplashActivity,N
+douyin_4,douyin,抖音,CHN,进入关注界面，查看关注博主的主页，观看关注的博主发布的视频并发表评论“期待下一条视频”,2,8,"['评论', '期待下一条视频']",com.ss.android.ugc.aweme,com.ss.android.ugc.aweme.splash.SplashActivity,N
+douyin_5,douyin,抖音,CHN,进入关注界面，查看关注博主的主页，观看关注的博主发布的视频并发表评论“期待下一条视频”，收藏该视频并查看我的收藏夹,3,11,"['收藏', '视频']",com.ss.android.ugc.aweme,com.ss.android.ugc.aweme.splash.SplashActivity,N
+eleme_0,eleme,饿了么,CHN,进入美食外卖，选择快餐便当,1,2,"['美食外卖', '快餐便当']",me.ele,me.ele.Launcher,N
+eleme_1,eleme,饿了么,CHN,进入美食外卖，选择快餐便当，按照好评优先排序，选择一家店铺查看详情,2,5,['点餐'],me.ele,me.ele.Launcher,N
+eleme_2,eleme,饿了么,CHN,进入美食外卖，选择快餐便当，按照好评优先排序，选择一家店铺查看详情，浏览评价，查看商家信息或品牌故事，返回点餐，选择任意餐食查看详情,3,10,"['加入购物车', '详情']",me.ele,me.ele.Launcher,N
+eleme_3,eleme,饿了么,CHN,进入甜品饮品板块，进入搜索界面,1,2,['搜索'],me.ele,me.ele.Launcher,N
+eleme_4,eleme,饿了么,CHN,进入甜品饮品板块，进入搜索界面，搜索瑞幸咖啡，选择推荐的店铺查看详情，选择生椰拿铁规格,2,6,"['生椰拿铁', '温度', '数量']",me.ele,me.ele.Launcher,N
+eleme_5,eleme,饿了么,CHN,进入甜品饮品板块，进入搜索界面，搜索瑞幸咖啡，选择推荐的店铺查看详情，选择生椰拿铁规格，选择冰，不额外加糖其余默认，加入购物车并去结算，不要提交订单,3,9,['确认订单'],me.ele,me.ele.Launcher,N
+gaodeditu_0,gaodeditu,高德地图,CHN,搜索附近的餐厅。,1,3,['美食'],com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_1,gaodeditu,高德地图,CHN,搜索附近的餐厅，按照好评优先排序，并点击列表里面的一家餐厅。,2,6,"['导航', '路线']",com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_2,gaodeditu,高德地图,CHN,搜索附近的餐厅，按照好评优先排序，并点击列表里面的一家餐厅，查看用户详情然后点击“路线”来规划乘公交从当前位置到达该餐厅的路线。,3,10,"['公交', '推荐']",com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_3,gaodeditu,高德地图,CHN,查找附近的超市。,1,3,"['超市', '位置距离', '推荐排序']",com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_4,gaodeditu,高德地图,CHN,查找附近的超市，点击其中一个超市，点击“路线”来规划路线。,2,6,"['我的位置', '驾车', '开始导航']",com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_5,gaodeditu,高德地图,CHN,查找附近的超市，点击其中一个超市，点击“路线”来规划路线，然后查看周围是否有加油站，选择一个合适的加油站作为经停点并确认最佳的驾车路线。,3,10,"['我的位置', '加油站', '驾车', '开始导航']",com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_6,gaodeditu,高德地图,CHN,进入附近界面，点击旅游，进入著名景区界面,1,3,"['著名景区', '位置距离', '推荐排序']",com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_7,gaodeditu,高德地图,CHN,进入附近界面，点击旅游，进入著名景区界面，切换到哈尔滨。将推荐排序换为好评优先，选择太阳岛风景区,2,6,['太阳岛风景区'],com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+gaodeditu_8,gaodeditu,高德地图,CHN,进入附近界面，点击旅游，进入著名景区界面，切换到哈尔滨。将推荐排序换为好评优先，选择太阳岛风景区。点击实用信息查看相关消息，购买太阳岛寒地野生动物园的票，进入订单界面。,3,9,['提交订单'],com.autonavi.minimap,com.autonavi.map.activity.SplashActivity,N
+hanglvzongheng_0,hanglvzongheng,航旅纵横,CHN,搜索某个月份16号北京到深圳的机票,1,6,"['北京', '深圳']",com.umetrip.android.msky.app,com.umetrip.android.msky.app.module.startup.SplashActivity,N
+hanglvzongheng_1,hanglvzongheng,航旅纵横,CHN,搜索某个月份16号北京到深圳的机票，筛选起飞时段为12:00-18:00并规定舱位为经济舱,2,11,"['首都' '大兴', '宝安']",com.umetrip.android.msky.app,com.umetrip.android.msky.app.module.startup.SplashActivity,N
+hanglvzongheng_2,hanglvzongheng,航旅纵横,CHN,搜索某个月份16号北京到深圳的机票，筛选起飞时段为12:00-18:00并规定舱位为经济舱，从中选择一班飞机，并查看退改签详细信息,3,15,"['经济舱', '大兴']",com.umetrip.android.msky.app,com.umetrip.android.msky.app.module.startup.SplashActivity,N
+hanglvzongheng_3,hanglvzongheng,航旅纵横,CHN,进入酒店信息界面，选择某个月份16日-18日深圳的酒店预定,1,5,"['深圳', '筛选', '酒店']",com.umetrip.android.msky.app,com.umetrip.android.msky.app.module.startup.SplashActivity,N
+hanglvzongheng_4,hanglvzongheng,航旅纵横,CHN,进入酒店信息界面，选择某个月份16日-18日深圳的酒店预定，筛选品牌为“全部经济酒店”，推荐顺序为好评优先,2,10,"['星级', '好评优先', '筛选']",com.umetrip.android.msky.app,com.umetrip.android.msky.app.module.startup.SplashActivity,N
+hanglvzongheng_5,hanglvzongheng,航旅纵横,CHN,进入酒店信息界面，选择某个月份16日-18日深圳的酒店预定，筛选品牌为“全部经济酒店”，推荐顺序为好评优先，选择位置在机场附近的一家酒店,3,18,['封面'],com.umetrip.android.msky.app,com.umetrip.android.msky.app.module.startup.SplashActivity,N
+haodaifu_0,haodaifu,好大夫,CHN,查看个人的全部订单,1,2,"['订单列表', '全部']",com.haodf.android,com.haodf.android.activity.SplashActivity,N
+haodaifu_1,haodaifu,好大夫,CHN,查看个人的全部订单。回到首页在专家门诊中查找神经外科有关的医生,2,9,"['神经外科']",com.haodf.android,com.haodf.android.activity.SplashActivity,N
+haodaifu_2,haodaifu,好大夫,CHN,查看个人的全部订单。回到首页在专家门诊中查找神经外科有关的医生，选择一位医生申请服务并预约挂号，时间任意选择。,3,14,['预约'],com.haodf.android,com.haodf.android.activity.SplashActivity,N
+haodaifu_3,haodaifu,好大夫,CHN,进入知识界面，选择失眠选项，查看介绍。,1,3,"['失眠', '介绍']",com.haodf.android,com.haodf.android.activity.SplashActivity,N
+haodaifu_4,haodaifu,好大夫,CHN,进入知识界面，选择失眠选项，查看介绍。点击推荐医院，更改地区为北京全部。,2,7,"['北京', '推荐', '医院']",com.haodf.android,com.haodf.android.activity.SplashActivity,N
+haodaifu_5,haodaifu,好大夫,CHN,进入知识界面，选择失眠选项，查看介绍。点击推荐医院，更改地区为北京全部。点击排行第一的医院并选择一位专家将其加入备选，并点击预约挂号查看预约信息。,3,11,['信息'],com.haodf.android,com.haodf.android.activity.SplashActivity,N
+huaweiliulanqi_0,huaweiliulanqi,华为浏览器,CHN,搜索bilibili.com.,1,3,['首页'],com.huawei.browser,com.huawei.browser.Main2,N
+huaweiliulanqi_1,huaweiliulanqi,华为浏览器,CHN,搜索bilibili.com，在网站中搜索“潜艇伟伟迷”并进入UP主列表,2,7,['潜艇伟伟迷'],com.huawei.browser,com.huawei.browser.Main2,N
+huaweiliulanqi_2,huaweiliulanqi,华为浏览器,CHN,搜索bilibili.com，在网站中搜索“潜艇伟伟迷”并进入UP主列表，添加该页面为书签，并确认在书签管理中存在该书签,3,12,"['书签', '潜艇伟伟迷']",com.huawei.browser,com.huawei.browser.Main2,N
+huaweiliulanqi_3,huaweiliulanqi,华为浏览器,CHN,浏览电商网站taobao.com,1,3,['淘宝'],com.huawei.browser,com.huawei.browser.Main2,N
+huaweiliulanqi_4,huaweiliulanqi,华为浏览器,CHN,浏览电商网站taobao.com，搜索华为mate60pro,2,6,"['商品', '华为', '搜索']",com.huawei.browser,com.huawei.browser.Main2,N
+huaweiliulanqi_5,huaweiliulanqi,华为浏览器,CHN,浏览电商网站taobao.com，搜索华为mate60pro，选择按销量排序，点击任意商品并查看评价,3,10,"['全部', '评']",com.huawei.browser,com.huawei.browser.Main2,N
+jingdong_0,jingdong,京东,CHN,搜索索尼 WH-1000XM4 头戴式耳机。,1,3,"['索尼', 'WH']",com.jingdong.app.mall,com.jingdong.app.mall.main.MainActivity,N
+jingdong_1,jingdong,京东,CHN,搜索索尼 WH-1000XM4 头戴式耳机，筛选出价格低于2000元的结果。,2,9,"['索尼', 'WH']",com.jingdong.app.mall,com.jingdong.app.mall.main.MainActivity,N
+jingdong_2,jingdong,京东,CHN,搜索索尼 WH-1000XM4 头戴式耳机，筛选出价格低于2000元的结果，查看商品详情页，加入购物车，查看购物车以确认。,3,14,"['索尼', 'WH', '结算']",com.jingdong.app.mall,com.jingdong.app.mall.main.MainActivity,N
+jingdong_3,jingdong,京东,CHN,搜索一款地毯。,1,3,['地毯'],com.jingdong.app.mall,com.jingdong.app.mall.main.MainActivity,N
+jingdong_4,jingdong,京东,CHN,搜索一款地毯，筛选销量最多的结果，查看商品详情，如果尚未收藏则收藏商品。,2,7,"['购物车', '详情']",com.jingdong.app.mall,com.jingdong.app.mall.main.MainActivity,N
+jingdong_5,jingdong,京东,CHN,搜索一款地毯，筛选销量最多的结果，查看商品详情，如果尚未收藏则收藏商品，并查看优惠详情，然后选择商品，设置数量为2，加入购物车,3,12,"['购物车', '结算']",com.jingdong.app.mall,com.jingdong.app.mall.main.MainActivity,N
+meituan_0,meituan,美团,CHN,搜索一家附近的螺蛳粉店。,1,3,"['螺蛳粉']",com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_1,meituan,美团,CHN,搜索一家附近的螺蛳粉店，并查看店内评分、评论以及菜品。,2,7,"['螺蛳粉']",com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_2,meituan,美团,CHN,搜索一家附近的螺蛳粉店，并查看店内评分、评论以及菜品，然后下单一份螺蛳粉(停在支付前的订单界面)。,3,13,"['螺蛳粉', '订单']",com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_3,meituan,美团,CHN,查找附近的一家健身馆。,1,3,['健身'],com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_4,meituan,美团,CHN,查找附近的一家健身馆，查看一名高评价的健身教练介绍。,2,6,['教练印象'],com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_5,meituan,美团,CHN,查找附近的一家健身馆，查看一名高评价的健身教练介绍并且购买票。（停留在订单界面）,3,9,"['订单', '支付']",com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_6,meituan,美团,CHN,查看浏览过的商品或商家,1,2,"['浏览记录', '商户']",com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_7,meituan,美团,CHN,为浏览过的商品或商家并撰写评论“Hello world”,2,8,['评价'],com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+meituan_8,meituan,美团,CHN,为浏览过的商品或商家撰写评论“Hello world”，回到个人主页，查看自己刚刚发布的评论,3,13,['评价详情'],com.sankuai.meituan,com.meituan.android.pt.homepage.activity.MainActivity,N
+QQMusic_0,QQMusic,QQ音乐,CHN,搜索歌手周杰伦。,1,3,['周杰伦'],com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_1,QQMusic,QQ音乐,CHN,搜索歌手周杰伦，打开他的一个专辑然后查看他的专辑评论。,2,6,"['周杰伦', '评论']",com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_2,QQMusic,QQ音乐,CHN,搜索歌手周杰伦，查看他的专辑然后发表评论“hello world”到评论区。,3,9,"['周杰伦', '评论']",com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_3,QQMusic,QQ音乐,CHN,查看个人资料,1,3,['个人资料'],com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_4,QQMusic,QQ音乐,CHN,查看个人资料，然后查看自己发表过的评论,2,6,['留言'],com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_5,QQMusic,QQ音乐,CHN,查看个人资料，然后查看自己发表过的评论，并回复“好好好”给自己的评论,3,9,['留言'],com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_6,QQMusic,QQ音乐,CHN,浏览音乐排行榜。,1,2,"['巅峰榜', '热歌榜']",com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_7,QQMusic,QQ音乐,CHN,浏览音乐排行榜，找到排名前五的歌曲。将前三名添加至我喜欢。,2,5,"['热歌榜', '我喜欢']",com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+QQMusic_8,QQMusic,QQ音乐,CHN,浏览音乐排行榜，找到排名前五的歌曲，将前五名添加至我喜欢并将第五名分享给微信好友。（停留在分享界面）,3,9,"['微信好友', '分享']",com.tencent.qqmusic,com.tencent.qqmusic.activity.AppStarterActivity,N
+qvnaer_0,qvnaer,去哪儿,CHN,在首页选择民宿 客栈，选择海外，城市选择东京,1,4,"['国内', '海外', '入住', '离店', '东京']",com.Qunar,com.mqunar.splash.SplashActivity,N
+qvnaer_1,qvnaer,去哪儿,CHN,在首页选择民宿 客栈，选择海外，城市选择东京，入住时间选择为某个月份的6日，离店时间选择为某个月份的19日,2,7,"['海外', '入住', '离店', '6日', '19日']",com.Qunar,com.mqunar.splash.SplashActivity,N
+qvnaer_2,qvnaer,去哪儿,CHN,在首页选择民宿 客栈，选择海外，城市选择东京，入住时间选择为某个月份的6日，离店时间选择为某个月份的19日，入住条件中总人数选择2人，床铺数选择2床，居室数选择1居,3,12,"['东京', '搜索', '2人', '2床', '1居']",com.Qunar,com.mqunar.splash.SplashActivity,N
+qvnaer_3,qvnaer,去哪儿,CHN,在首页选择机票，选择往返界面,1,2,"['机票', '单程', '往返', '乘机人']",com.Qunar,com.mqunar.splash.SplashActivity,N
+qvnaer_4,qvnaer,去哪儿,CHN,在首页选择机票，选择往返界面，出发城市选择深圳，抵达城市选择南京,2,6,"['机票', '往返', '深圳', '南京']",com.Qunar,com.mqunar.splash.SplashActivity,N
+qvnaer_5,qvnaer,去哪儿,CHN,在首页选择机票，选择往返界面，出发城市选择深圳，抵达城市选择南京，出发日期定为某个月份9号，返回日期定为某个月份17号，点击搜索。,3,12,"['深圳', '南京', '9天', '去程', '返程']",com.Qunar,com.mqunar.splash.SplashActivity,N
+settings_0,settings,设置,CHN,点击“系统与更新”，进入开发者选项,1,3,"['开发', '选项', '内存']",com.android.settings,com.android.settings.MainSettings,N
+settings_1,settings,设置,CHN,点击“系统与更新”，进入开发者选项，点击内存，将选项换成1天后查看各个应用的内存使用量,2,6,"['内存使用量', '小时']",com.android.settings,com.android.settings.MainSettings,N
+settings_2,settings,设置,CHN,点击“系统与更新”，进入开发者选项，点击内存，将选项换成1天后查看各个应用的内存使用量，然后进入其中两个应用的内存使用量页面分别查看。,3,9,"['内存使用量', '详细信息']",com.android.settings,com.android.settings.MainSettings,N
+taobao_0,taobao,淘宝,CHN,搜索“华为P50”。,1,3,['华为P50'],com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_1,taobao,淘宝,CHN,搜索“华为P50”，点击一件商品查看详情，下拉查看评价。,2,6,['评价'],com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_2,taobao,淘宝,CHN,搜索“华为P50”，点击一件商品查看详情，下拉查看评价，收藏此商品，进入店铺，关注此店铺。,3,10,['关注成功'],com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_3,taobao,淘宝,CHN,搜索《抹茶旦旦》周边。,1,3,['抹茶旦旦'],com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_4,taobao,淘宝,CHN,搜索《抹茶旦旦》周边，查看并选择一款拼图，加入购物车。,2,7,['抹茶旦旦'],com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_5,taobao,淘宝,CHN,搜索《鬼灭之刃》动漫周边，查看并选择一款T恤，加入购物车，收藏商品，并且分享给好友（结束在分享页面前就可以）。,3,10,"['鬼灭之刃', '分享给好友']",com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_6,taobao,淘宝,CHN,搜索男士洗发水。,1,3,['男士洗发水'],com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_7,taobao,淘宝,CHN,搜索男士洗发水，查看商品详情，然后加入购物车。,2,7,['加入购物车'],com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+taobao_8,taobao,淘宝,CHN,搜索男士香水，查看商品详情并收藏，然后加入购物车，并将香水店铺放入店铺关注列表。,3,10,"['已关注', '已收藏', '加入购物车', '关注成功']",com.taobao.taobao,com.taobao.tao.welcome.Welcome,N
+tencentdocs_0,tencentdocs,腾讯文档,CHN,新建一个空白文档,1,3,"['请输入标题', '请输入正文']",com.tencent.docs,com.tencent.docs.DocsFlutterActivity,N
+tencentdocs_1,tencentdocs,腾讯文档,CHN,新建一个空白文档，设置标题为“标题”，设置正文为“你好”,2,6,"['标题', '你好']",com.tencent.docs,com.tencent.docs.DocsFlutterActivity,N
+tencentdocs_2,tencentdocs,腾讯文档,CHN,新建一个空白文档，设置标题为“标题”，设置正文为“你好”，查看文档大纲后返回至主页,3,10,"['今天', '标题']",com.tencent.docs,com.tencent.docs.DocsFlutterActivity,N
+tencentwemeet_0,tencentwemeet,腾讯会议,CHN,预定一个常规会议，开启入会密码,1,3,"['预定会议', '入会密码']",com.tencent.wemeet.app,com.tencent.wemeet.app.StartupActivity,N
+tencentwemeet_1,tencentwemeet,腾讯会议,CHN,预定一个常规会议，开启入会密码并将入会密码设置为“111111”后进入设置会议水印界面,2,9,['会议水印'],com.tencent.wemeet.app,com.tencent.wemeet.app.StartupActivity,N
+tencentwemeet_2,tencentwemeet,腾讯会议,CHN,预定一个常规会议，开启入会密码并将入会密码设置为“111111”，开启会议水印后完成设置。,3,12,['会议详情'],com.tencent.wemeet.app,com.tencent.wemeet.app.StartupActivity,N
+toutiao_0,toutiao,今日头条,CHN,搜索关键词“科技新闻”。,1,4,['科技新闻'],com.ss.android.article.news,com.ss.android.article.news.activity.MainActivity,N
+toutiao_1,toutiao,今日头条,CHN,搜索关键词“科技新闻”，查看前2条新闻。,2,7,['分享'],com.ss.android.article.news,com.ss.android.article.news.activity.MainActivity,N
+toutiao_2,toutiao,今日头条,CHN,搜索关键词“科技新闻”，查看前2条新闻，点赞并收藏。,3,10,"['分享', '收藏']",com.ss.android.article.news,com.ss.android.article.news.activity.MainActivity,N
+toutiao_3,toutiao,今日头条,CHN,打开设置。,1,2,"['设置', '编辑资料', '账号与安全']",com.ss.android.article.news,com.ss.android.article.news.activity.MainActivity,N
+toutiao_4,toutiao,今日头条,CHN,打开设置，清理缓存文件并查看历史记录。,2,5,"['历史', '编辑', '关注']",com.ss.android.article.news,com.ss.android.article.news.activity.MainActivity,N
+toutiao_5,toutiao,今日头条,CHN,打开设置，清理缓存文件，查看历史记录并使用“一键清空”功能清空历史记录，然后浏览消息私信。,3,10,"['消息', '私信', '评论']",com.ss.android.article.news,com.ss.android.article.news.activity.MainActivity,N
+wechat_0,wechat,微信,CHN,进入朋友圈的页面。,1,2,[],com.tencent.mm,com.tencent.mm.ui.LauncherUI,N
+wechat_1,wechat,微信,CHN,发表一则朋友圈，从相册中任意选一张图，并配文“今天真开心”。,2,9,['今天真开心'],com.tencent.mm,com.tencent.mm.ui.LauncherUI,N
+wechat_2,wechat,微信,CHN,发表一则朋友圈，从相册中任意选一张图，并配文“今天天气真好”。点赞这条朋友圈，并评论“希望大家点赞”。,3,15,"['今天天气真好','希望大家点赞']",com.tencent.mm,com.tencent.mm.ui.LauncherUI,N
+weibo_0,weibo,微博,CHN,搜索“周末去哪儿玩”,1,3,"['周末去哪儿玩', '综合']",com.weico.international,com.weico.international.appicon_white,N
+weibo_1,weibo,微博,CHN,搜索“深圳美食”，关注两个发微博的用户。,2,6,"['深圳美食', '综合', '已关注']",com.weico.international,com.weico.international.appicon_white,N
+weibo_2,weibo,微博,CHN,搜索“周末去哪儿玩”，关注两个发微博的用户并转发其中一条微博，附上评论“这个地方看起来不错”（并且停留在发送页面）,3,13,['这个地方看起来不错'],com.weico.international,com.weico.international.appicon_white,N
+weibo_3,weibo,微博,CHN,搜索用户名为“李子柒”的用户,1,3,['李子柒'],com.weico.international,com.weico.international.appicon_white,N
+weibo_4,weibo,微博,CHN,搜索用户名为“李子柒”的用户，关注该用户，浏览其最新发布的一条微博,2,7,"['李子柒', '全部微博']",com.weico.international,com.weico.international.appicon_white,N
+weibo_5,weibo,微博,CHN,搜索用户名为“腥味猫罐”的用户，关注该用户，浏览其发布的一条微博，并在这条微博下进行评论：“hello world”（并且发送出去）,3,10,"['腥味猫罐', '发送成功']",com.weico.international,com.weico.international.appicon_white,N
+xiaohongshu_0,xiaohongshu,小红书,CHN,搜索一种名为“减肥食谱”的笔记。,1,3,"['减肥食谱', '全部', '用户', '筛选']",com.xingin.xhs,com.xingin.xhs.index.v2.IndexActivityV2,N
+xiaohongshu_1,xiaohongshu,小红书,CHN,搜索一种名为“减肥食谱”的笔记，按照热度排序。,2,6,"['减肥食谱', '全部', '用户', '筛选']",com.xingin.xhs,com.xingin.xhs.index.v2.IndexActivityV2,N
+xiaohongshu_2,xiaohongshu,小红书,CHN,搜索一种名为“减肥食谱”的笔记，按照热度排序，观看其中一个热度最高的笔记，点赞该笔记，收藏该笔记，然后编辑评论“很有用，谢谢“，停留在评论发送页面不要发送。,3,11,"['发送', '很有用', '谢谢']",com.xingin.xhs,com.xingin.xhs.index.v2.IndexActivityV2,N
+xiaohongshu_3,xiaohongshu,小红书,CHN,在首页切换至视频类别，观看一条推荐的视频笔记。,1,2,"['关注', '说点什么']",com.xingin.xhs,com.xingin.xhs.index.v2.IndexActivityV2,N
+xiaohongshu_4,xiaohongshu,小红书,CHN,在首页切换至视频类别，观看一条推荐的视频笔记点赞该视频，关注视频发布者，并查看视频评论区。,2,5,['评论'],com.xingin.xhs,com.xingin.xhs.index.v2.IndexActivityV2,N
+xiaohongshu_5,xiaohongshu,小红书,CHN,在首页观看一条推荐的视频笔记，点赞该视频，关注视频发布者，并查看视频评论区，随后查看该用户的其他笔记，并收藏其中两篇笔记。,3,10,"['已关注', '收藏成功']",com.xingin.xhs,com.xingin.xhs.index.v2.IndexActivityV2,N
+xieheyiyuan_0,xieheyiyuan,协和医院,CHN,进入预约挂号界面,1,3,"['挂号', '日期', '门诊']",com.hundsun.qy.hospitalcloud.bj.xhhosp.hsyy,com.hundsun.main.activity.SplashActivity,N
+xieheyiyuan_1,xieheyiyuan,协和医院,CHN,进入预约挂号界面，打开“东单院区普通门诊”，查看基本外科医生列表,2,7,['基本外科'],com.hundsun.qy.hospitalcloud.bj.xhhosp.hsyy,com.hundsun.main.activity.SplashActivity,N
+xieheyiyuan_2,xieheyiyuan,协和医院,CHN,进入预约挂号界面，打开“东单院区普通门诊”，查看基本外科医生列表，选择一个医生，查看医生介绍主页并点击常规咨询,3,10,"['医生主页', '咨询']",com.hundsun.qy.hospitalcloud.bj.xhhosp.hsyy,com.hundsun.main.activity.SplashActivity,N
+xieheyiyuan_3,xieheyiyuan,协和医院,CHN,在便民服务中点击专科专病,1,3,['专科专病'],com.hundsun.qy.hospitalcloud.bj.xhhosp.hsyy,com.hundsun.main.activity.SplashActivity,N
+xieheyiyuan_4,xieheyiyuan,协和医院,CHN,在便民服务中点击专科专病，选择放射治疗科，点击胸部肿瘤组查看该病简介,2,6,"['胸部肿瘤组', '简介']",com.hundsun.qy.hospitalcloud.bj.xhhosp.hsyy,com.hundsun.main.activity.SplashActivity,N
+xieheyiyuan_5,xieheyiyuan,协和医院,CHN,在便民服务中点击专科专病，选择放射治疗科，点击胸部肿瘤组查看该病简介后点击专家介绍，选择一个专家查看其主页并点击常规咨询选项,3,9,['咨询'],com.hundsun.qy.hospitalcloud.bj.xhhosp.hsyy,com.hundsun.main.activity.SplashActivity,N
+youdaodict_0,youdaodict,有道词典,CHN,点击学习，搜索“高三”,1,4,"['高三', '图文']",com.youdao.dict,com.youdao.dict.activity.DictSplashActivity,N
+youdaodict_1,youdaodict,有道词典,CHN,点击学习，搜索“高三”，进入图文分类点击一篇图文，查看评论,2,7,"['评论', '发布']",com.youdao.dict,com.youdao.dict.activity.DictSplashActivity,N
+youdaodict_2,youdaodict,有道词典,CHN,点击学习，搜索“高三”，进入图文分类点击一篇图文，查看评论后发表评论“hello world”,3,10,"['hello','world']",com.youdao.dict,com.youdao.dict.activity.DictSplashActivity,N
+zhihu_0,zhihu,知乎,CHN,搜索“编程猫”,1,3,"['编程猫', '实时']",com.zhihu.android,com.zhihu.android.app.ui.activity.LauncherActivity,N
+zhihu_1,zhihu,知乎,CHN,搜索“编程猫”，搜索用户，并进入结果中一个用户的主页，查看其最新发布的文章,2,7,"['编程猫', '关注']",com.zhihu.android,com.zhihu.android.app.ui.activity.LauncherActivity,N
+zhihu_2,zhihu,知乎,CHN,搜索“编程猫”，搜索用户，并进入结果中一个用户的主页，查看其最新发布的文章，点赞该文章，点击收藏，并在评论区发表评论“hello world”,3,13,"['编程猫', '评论']",com.zhihu.android,com.zhihu.android.app.ui.activity.LauncherActivity,N
+zhihu_3,zhihu,知乎,CHN,搜索“人工智能”专栏,1,4,"['人工智能', '专栏']",com.zhihu.android,com.zhihu.android.app.ui.activity.LauncherActivity,N
+zhihu_4,zhihu,知乎,CHN,搜索“人工智能”专栏，查看一篇专栏中的文章并评论“hello world”,2,10,['评论'],com.zhihu.android,com.zhihu.android.app.ui.activity.LauncherActivity,N
+zhihu_5,zhihu,知乎,CHN,搜索“人工智能”专栏，查看一篇专栏中的文章并评论“hello world”，并将该文章收藏,3,13,['更改'],com.zhihu.android,com.zhihu.android.app.ui.activity.LauncherActivity,N

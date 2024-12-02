@@ -1,0 +1,15 @@
+{
+    "task_description": "在QQ音乐上播放一首周杰伦的歌，然后将音乐分享到小红书，发布笔记",
+    "subtask_1": {
+        "app": "QQ音乐",
+        "task": "播放一首周杰伦的歌",
+        "history": false,
+        "memory": "周杰伦的歌"
+    },
+    "subtask_2": {
+        "app": "小红书",
+        "task": "分享{周杰伦的歌}，发布笔记",
+        "history": true,
+        "memory": "None"
+    }
+}

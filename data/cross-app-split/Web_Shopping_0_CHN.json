@@ -1,0 +1,15 @@
+{
+    "task_description": "在知乎中搜索“1000元以下音箱推荐”，并在京东搜索其中提到的一款音箱，选择一个加入购物车",
+    "subtask_1": {
+        "app": "知乎",
+        "task": "搜索“1000元以下音箱推荐”",
+        "history": false,
+        "memory": "音箱推荐"
+    },
+    "subtask_2": {
+        "app": "京东",
+        "task": "搜索{音箱推荐}中的一款音箱，选择一个加入购物车",
+        "history": true,
+        "memory": "None"
+    }
+}

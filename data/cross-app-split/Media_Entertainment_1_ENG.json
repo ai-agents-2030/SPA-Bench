@@ -1,0 +1,15 @@
+{
+    "task_description": "Utilize Chrome to research different Recipe Organizer apps, and then proceed to Google Play Store, download one of your choice.",
+    "subtask_1": {
+        "app": "Chrome",
+        "task": "Research different Recipe Organizer apps",
+        "history": false,
+        "memory": "Recipe Organizer apps"
+    },
+    "subtask_2": {
+        "app": "Google Play Store",
+        "task": "Download one of {Recipe Organizer apps}",
+        "history": true,
+        "memory": "None"
+    }
+}

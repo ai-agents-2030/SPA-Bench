@@ -1,0 +1,21 @@
+{
+    "task_description": "Utilize Chrome to search for a biography book, then use Quora to read reviews about the book, and finally add the book to watchlist on eBay.",
+    "subtask_1": {
+        "app": "Chrome",
+        "task": "Search for a biography book",
+        "history": false,
+        "memory": "biography book"
+    },
+    "subtask_2": {
+        "app": "Quora",
+        "task": "Read reviews about {biography book}",
+        "history": true,
+        "memory": "None"
+    },
+    "subtask_3": {
+        "app": "eBay",
+        "task": "Add {biography book} to watchlist",
+        "history": true,
+        "memory": "None"
+    }
+}
