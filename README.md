@@ -27,7 +27,7 @@ git clone --recurse-submodules https://github.com/ai-agents-2030/SPA-Bench.git
 ## 💬 Core Features
 
 ### 📋 Diverse and Realistic Task Design
-* **📦 300 Tasks** - 300 Single-app Tasks and 40 Cross-app Tasks
+* **📦 340 Tasks** - 300 Single-app Tasks and 40 Cross-app Tasks
 * **🌐 66 Apps** – 52 Third-party Apps, 7 Google Apps and 7 System Apps
 * **🌍 2 Languages** – Chinese and English apps
 * **📊 Increased Difficulty Levels**
