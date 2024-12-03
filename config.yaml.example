@@ -4,7 +4,7 @@ EMULATOR_PATH: "emulator.exe" # Modify the path
 ANDROID_SDK_PATH: "C:\\Users\\User\\AppData\\Local\\Android\\Sdk" # Modify the path
 RESULTS_DIR: "./results"
 SESSION_ID: "first-session"
-DATASET_PATH: "./benchmark/data.csv"
+DATASET_PATH: "./data/single-app-ENG.csv"
 
 # Device / Emulator configs
 DEFAULT_KEYBOARD_PACKAGE: "com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME"
