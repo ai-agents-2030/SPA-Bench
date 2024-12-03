@@ -36,15 +36,20 @@
    ./setup.sh
    ```
 
-3. Update Configuration:
+   You may also need to run the following first:
+   ```sh
+   chmod +x ./setup.sh
+   ``` 
+
+4. Update Configuration:
 
    Before running the script, rename `config.yaml.example` to `config.yaml`, then open the `config.yaml` file and modify any configuration keys or file paths according to your setup. Ensure that all necessary configurations are correctly specified for your environment.
 
-4. Update Environment:
+5. Update Environment:
 
    Please (copy and) rename `.env.example` as `.env` to store necessary environment variable.
 
-5. (Optional)
+6. (Optional)
 
    If you want to evaluate CogAgent, follow the steps in `./framework/models/CogAgent/README.md` to deploy the model in a GPU server.
    If you want to evaluate GUI-Odyssey, follow the steps in `./framework/models/GUI-Odyssey/README.md` to deploy the model in a GPU server.
