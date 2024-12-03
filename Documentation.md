@@ -73,7 +73,7 @@ Below are the descriptions for the optional arguments you can use with `run.py`:
 - `--session_id`: Provides an ID for an isolated benchmark session.
 - `--task_id`: Defines the specific task to be executed or evaluated. Iterates all tasks if omitted.
 - `--no_concurrent`: Disables concurrent evaluation. Note that enabling concurrency may result in hitting API rate limits.
-- `--skip_key_components`: Disable key components matching.
+- `--skip_key_components`: Disables key components matching. It is recommended for use when running new single-app tasks beyond those provided in this benchmark, which has been annotated with key components.
 - `--reasoning_mode`: Choose from `result_only` (MLLM evaluator only gives 0 or 1) / `direct` (MLLM evaluator gives reasoning thoughts before the results)
 - `--action_mode`: Choose from `no_action` / `with_action` (image-based actions) / `text_action` (textual actions)
 
