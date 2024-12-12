@@ -24,7 +24,7 @@ def gpt4o_evaluator(
             content = response["choices"][0]["message"]["content"]
             token_taken = response["usage"]["total_tokens"]
             api_cost = 5e-06 * response["usage"]["prompt_tokens"] + 1.5e-05 * response["usage"]["completion_tokens"]
-            print(content)
+            # print(content)
             if reasoning_mode == "result_only":
                 # Define regex pattern to capture text
                 pattern = r"Result[:：]\s*(\d)"

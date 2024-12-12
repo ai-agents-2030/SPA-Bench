@@ -1,10 +1,10 @@
 __pycache__/
 .env
 framework/models/AppAgent/tasks/
-framework/models/MobileAgent/screenshot*
-framework/models/MobileAgent/temp*
-framework/models/Mobile-Agent-v2/screenshot*
-framework/models/Mobile-Agent-v2/temp*
+framework/models/MobileAgent/Mobile-Agent/screenshot*
+framework/models/MobileAgent/Mobile-Agent/temp*
+framework/models/MobileAgent/Mobile-Agent-v2/screenshot*
+framework/models/MobileAgent/Mobile-Agent-v2/temp*
 framework/models/groundingdino_swint_ogc.pth
 screenshot
 results

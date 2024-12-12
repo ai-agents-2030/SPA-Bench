@@ -28,9 +28,9 @@ def key_component_match(task_identifier, target_dir, dataset, case_sensitive=Fal
                 screen_info = screen_info.lower()
             # check whether all key component exist in the final screenshot
             success = all([component in screen_info for component in key_components])
-            print(f"OCR <{task_identifier}/{file_name}>:")
-            print(screen_info)
-            print("Matched:", "YES" if success else "NO")
+            # print(f"OCR <{task_identifier}/{file_name}>:")
+            # print(screen_info)
+            # print("Matched:", "YES" if success else "NO")
             if success:
                 return file_name, len(screenshot_file_names)
         # doesn't match any screenshots

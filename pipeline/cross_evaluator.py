@@ -19,11 +19,11 @@ def stage_1_cross_evaluator(
 ):
     """Stage 1 of cross-app task evaluation."""
 
-    print(task_identifier)
+    # print(task_identifier)
 
     dataset = get_dataset(utils.get_results_csv_path(result_dir))
     task_description = dataset.loc[task_identifier]["task_description"]
-    print(task_description)
+    # print(task_description)
 
     if mode == "full":
         target_dir = os.path.join(result_dir, task_identifier, agent)
