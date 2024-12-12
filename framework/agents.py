@@ -292,8 +292,6 @@ class MobileAgent(BaseAgent):
     def construct_command(
         self, task: namedtuple, full_task_description: str, output_dir: str, device: dict
     ) -> tuple[str, str]:
-        groundingdion_abs_path = os.path.join(os.getcwd(), self.agent_config["GROUNDINGDION_PATH"])
-
         script = "run.py"
         # TODO: Escaping double quotes works for Windows Only, use '\' as escape characters otherwise
 
@@ -305,7 +303,6 @@ class MobileAgent(BaseAgent):
             f"""--instruction "{full_task_description.replace('"', '""')}" """
             f'--lang "{task.task_language}" '
             f'--output_dir "{output_dir}" '
-            f'--grounding_ckpt "{groundingdion_abs_path}" '
             f"""--adb_path "{self.config['ADB_PATH']}" """
             f"--max_rounds {max_rounds} "
             f"""--device {device['serial']} """

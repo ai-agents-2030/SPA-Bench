@@ -15,7 +15,7 @@ NUM_OF_EMULATOR: 4
 MAX_EVAL_SUBPROCESS: 8
 
 # General agent configs
-OPENAI_API_MODEL: "gpt-4o" # Leave blank to use default model
+OPENAI_API_MODEL: "gpt-4o-2024-05-13" # Leave blank to use default model
 MAX_ROUNDS: 0
 
 # Agent-specific configs
@@ -24,3 +24,9 @@ AGENTS:
     REPO_PATH: "./framework/models/AppAgent"
     ENV_NAME: "AppAgent"
     # `NAME`, `REPO_PATH`, `ENV_NAME` are necessary for every agent
+  - NAME: "MobileAgent"
+    REPO_PATH: "./framework/models/MobileAgent/Mobile-Agent"
+    ENV_NAME: "MobileAgent"
+  - NAME: "MobileAgentV2"
+    REPO_PATH: "./framework/models/MobileAgent/Mobile-Agent-v2"
+    ENV_NAME: "MobileAgent"

@@ -1,3 +1,6 @@
 [submodule "framework/models/AppAgent"]
 	path = framework/models/AppAgent
 	url = https://github.com/ai-agents-2030/AppAgent
+[submodule "framework/models/MobileAgent"]
+	path = framework/models/MobileAgent
+	url = https://github.com/ai-agents-2030/MobileAgent
