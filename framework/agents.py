@@ -361,9 +361,11 @@ class AndroidWorldAgent(BaseAgent):
             f"""--adb_path "{self.config['ADB_PATH']}" """
             f"--max_rounds {max_rounds} "
             f'--agent "{self.agent_name}" '
-            f"""--device_console_port {device['console_port']} """
-            f"""--device_grpc_port {device['grpc_port']} """
         )
+        if device['serial'].startswith('emulator-'):
+            args +=  f"""--device_console_port {device['console_port']}  --device_grpc_port {device['grpc_port']} """
+        else:
+            args +=  f"""--device_serial {device['serial']} """
         if self.config["OPENAI_API_MODEL"]:
             args += f"""--openai_api_model "{self.config['OPENAI_API_MODEL']}" """
         return script, args

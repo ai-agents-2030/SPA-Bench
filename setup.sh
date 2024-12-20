@@ -36,4 +36,22 @@ echo "Installed packages in ${name}."
 python ./framework/models/MobileAgent/Mobile-Agent/load_models.py
 conda deactivate
 
+### M3A, T3A, SeeAct ###
+name="AndroidWorld"
+python_version="3.11.8"
+conda create -n $name python=$python_version -y
+echo "Created conda environment ${name} with Python ${python_version}."
+conda activate $name
+cd ./framework/android_env
+python setup.py install
+echo "Successfully run setup.py for AndroidEnv"
+cd ../../
+pip install -r ./requirements/${name}.txt
+cd ./framework/models/AndroidWorld
+python setup.py install
+echo "Successfully run setup.py for AndroidWorld"
+cd ../../../
+echo "Installed packages in ${name}."
+conda deactivate
+
 echo "Script completed successfully."
