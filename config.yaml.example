@@ -39,3 +39,6 @@ AGENTS:
   - NAME: "SeeAct"
     REPO_PATH: "./framework/models/AndroidWorld"
     ENV_NAME: "AndroidWorld"
+  - NAME: "AutoDroid"
+    REPO_PATH: "./framework/models/AutoDroid"
+    ENV_NAME: "AutoDroid"

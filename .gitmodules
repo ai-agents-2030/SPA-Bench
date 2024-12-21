@@ -10,3 +10,6 @@
 [submodule "framework/models/AndroidWorld"]
 	path = framework/models/AndroidWorld
 	url = https://github.com/ai-agents-2030/android_world
+[submodule "framework/models/AutoDroid"]
+	path = framework/models/AutoDroid
+	url = https://github.com/ai-agents-2030/AutoDroid

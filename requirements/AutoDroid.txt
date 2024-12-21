@@ -1,0 +1,16 @@
+pyvis
+treelib
+pyyaml
+torch
+InstructorEmbedding
+sentence_transformers
+
+#-e framework/models/AutoDroid #pip install -U -e .
+
+androguard>=4.0
+networkx
+Pillow
+requests
+pyvis
+treelib
+pyyaml

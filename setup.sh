@@ -54,4 +54,15 @@ cd ../../../
 echo "Installed packages in ${name}."
 conda deactivate
 
+### AutoDroid ###
+name="AutoDroid"
+python_version="3.10"
+conda create -n $name python=$python_version -y
+echo "Created conda environment ${name} with Python ${python_version}."
+conda activate $name
+pip install -r ./requirements/${name}.txt
+# pip install -U -e ./framework/models/AutoDroid
+echo "Installed packages in ${name}."
+conda deactivate
+
 echo "Script completed successfully."

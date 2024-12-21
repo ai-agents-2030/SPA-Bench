@@ -200,7 +200,8 @@ class AppAgent(BaseAgent):
 class AutoDroid(BaseAgent):
     agent_name = "AutoDroid"
 
-    def execute_task(self, task: namedtuple, device: dict, capture_stdout=False) -> tuple[bool, int]:
+    def execute_task(self, task: namedtuple, device: dict, capture_stdout=True) -> tuple[bool, int]:
+        # May configure `capture_stdout` to False to make it work on some operating systems
         return super().execute_task(task, device, capture_stdout)
 
     def construct_command(
