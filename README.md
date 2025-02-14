@@ -8,6 +8,7 @@
 👋 Welcome to the **SPA-Bench** repository, a benchmark designed to evaluate the performance of smartphone agents. This project offers a structured approach to assessing the efficiency, robustness, and accuracy of various smartphone agents across a variety of scenarios and conditions.
 
 ## 📢 News
+* [11 Feb '25] SPA-Bench has been accepted to ICLR 2025 and selected as a Spotlight! Congrats to all co-authors🎉 See you in Singapore🇸🇬
 * [02 Dec '24] We have partially released the core code, including AppAgent integration. The full version will be made available later this month. Stay tuned for updates!
 * [11 Oct '24] SPA-Bench has been accepted by the NeurIPS 2024 Workshop Open-World Agents!
 
