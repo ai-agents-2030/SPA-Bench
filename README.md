@@ -57,10 +57,10 @@ git clone --recurse-submodules https://github.com/ai-agents-2030/SPA-Bench.git
 
 ## 🙌 Citation
 ```bib
-@inproceedings{chen2024spa,
+@inproceedings{chen2025spabench,
   title={SPA-Bench: A Comprehensive Benchmark for SmartPhone Agent Evaluation},
-  author={Chen*, Jingxuan and Yuen*, Derek and Xie, Bin and Yang, Yuhao and Chen, Gongwei and Wu, Zhihao and Yixing, Li and Zhou, Xurui and Liu, Weiwen and Wang, Shuai and Shao, Rui and Nie, Liqiang and Wang, Yasheng and Hao, Jianye and Wang, Jun and Shao, Kun},
-  booktitle={NeurIPS 2024 Workshop on Open-World Agents},
-  year={2024}
+  author={Jingxuan Chen and Derek Yuen and Bin Xie and Yuhao Yang and Gongwei Chen and Zhihao Wu and Li Yixing and Xurui Zhou and Weiwen Liu and Shuai Wang and Kaiwen Zhou and Rui Shao and Liqiang Nie and Yasheng Wang and Jianye HAO and Jun Wang and Kun Shao},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
 }
 ```
