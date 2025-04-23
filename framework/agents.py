@@ -245,47 +245,6 @@ class AutoDroid(BaseAgent):
             args += f""" -openai_api_model "{self.config['OPENAI_API_MODEL']}" """
         return script, args
 
-
-class CogAgent(BaseAgent):
-    agent_name = "CogAgent"
-
-    def construct_command(
-        self, task: namedtuple, full_task_description: str, output_dir: str, device: dict
-    ) -> tuple[str, str]:
-        script = "main.py"
-        max_rounds = self.config["MAX_ROUNDS"]
-        if not max_rounds:
-            max_rounds = task.golden_steps * 2 + 1
-        args = (
-            f""" -task "{full_task_description.replace('"', '""')}" """
-            f' -benchmark_output_dir "{output_dir}" '
-            f" -max_rounds {max_rounds} "
-            f""" -device {device['serial']} """
-            f" -model_api_url {self.agent_config['API_URL']} "
-        )
-        return script, args
-
-
-class GUI_Odyssey(BaseAgent):
-    agent_name = "GUI_Odyssey"
-
-    def construct_command(
-        self, task: namedtuple, full_task_description: str, output_dir: str, device: dict
-    ) -> tuple[str, str]:
-        script = "main.py"
-        max_rounds = self.config["MAX_ROUNDS"]
-        if not max_rounds:
-            max_rounds = task.golden_steps * 2 + 1
-        args = (
-            f""" -task "{full_task_description.replace('"', '""')}" """
-            f' -benchmark_output_dir "{output_dir}" '
-            f" -max_rounds {max_rounds} "
-            f""" -device {device['serial']} """
-            f" -model_api_url {self.agent_config['API_URL']} "
-        )
-        return script, args
-
-
 class MobileAgent(BaseAgent):
     agent_name = "MobileAgent"
     default_adb_keyboard = True
@@ -384,41 +343,37 @@ class SeeAct(AndroidWorldAgent):
     agent_name = "SeeAct"
 
 
-class AutoUI(BaseAgent):
+class AgentAsAModel(BaseAgent):
+    agent_name = ""
+
+    def construct_command(
+        self, task: namedtuple, full_task_description: str, output_dir: str, device: dict
+    ) -> tuple[str, str]:
+        script = "task_executor.py"
+        max_rounds = self.config["MAX_ROUNDS"]
+        if not max_rounds:
+            max_rounds = task.golden_steps * 2 + 1
+        args = (
+            f""" -task "{full_task_description.replace('"', '""')}" """
+            f' -benchmark_output_dir "{output_dir}" '
+            f" -max_rounds {max_rounds} "
+            f""" -device {device['serial']} """
+            f" -model_api_url {self.agent_config['API_URL']} "
+        )
+        return script, args
+
+
+class AutoUI(AgentAsAModel):
     agent_name = "AutoUI"
 
-    def construct_command(
-        self, task: namedtuple, full_task_description: str, output_dir: str, device: dict
-    ) -> tuple[str, str]:
-        script = "task_executor.py"
-        max_rounds = self.config["MAX_ROUNDS"]
-        if not max_rounds:
-            max_rounds = task.golden_steps * 2 + 1
-        args = (
-            f""" -task "{full_task_description.replace('"', '""')}" """
-            f' -benchmark_output_dir "{output_dir}" '
-            f" -max_rounds {max_rounds} "
-            f""" -device {device['serial']} """
-            f" -model_api_url {self.agent_config['API_URL']} "
-        )
-        return script, args
+
+class DigiRLAgent(AgentAsAModel):
+    agent_name = "DigiRLAgent"
 
 
-class DigirlAgent(BaseAgent):
-    agent_name = "DigirlAgent"
+class CogAgent(AgentAsAModel):
+    agent_name = "CogAgent"
 
-    def construct_command(
-        self, task: namedtuple, full_task_description: str, output_dir: str, device: dict
-    ) -> tuple[str, str]:
-        script = "task_executor.py"
-        max_rounds = self.config["MAX_ROUNDS"]
-        if not max_rounds:
-            max_rounds = task.golden_steps * 2 + 1
-        args = (
-            f""" -task "{full_task_description.replace('"', '""')}" """
-            f' -benchmark_output_dir "{output_dir}" '
-            f" -max_rounds {max_rounds} "
-            f""" -device {device['serial']} """
-            f" -model_api_url {self.agent_config['API_URL']} "
-        )
-        return script, args
+
+class GUI_Odyssey(AgentAsAModel):
+    agent_name = "GUI_Odyssey"

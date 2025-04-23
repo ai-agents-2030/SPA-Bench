@@ -65,4 +65,14 @@ pip install -r ./requirements/${name}.txt
 echo "Installed packages in ${name}."
 conda deactivate
 
+### AutoUI, DigiRL, CogAgent, GUI-Odyssey ###
+name="AgentAsAModel"
+python_version="3.10"
+conda create -n $name python=$python_version -y
+echo "Created conda environment ${name} with Python ${python_version}."
+conda activate $name
+pip install -r ./requirements/${name}.txt
+echo "Installed packages in ${name}."
+conda deactivate
+
 echo "Script completed successfully."

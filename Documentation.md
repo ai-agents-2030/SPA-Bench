@@ -5,21 +5,23 @@
 ### Prerequisites
 
 1. Ensure that `conda` is available on your system. You can download it from the [conda.io website](https://conda.io/projects/conda/en/latest/user-guide/install/index.html).
-2. Download and install the [Android Debug Bridge (adb)](https://developer.android.com/tools/adb) on your PC. This command-line tool allows you to communicate with your Android device from your PC. After installation, add the adb tool to your system's environment variables.
+2. Download and install the [Android Debug Bridge (adb)](https://developer.android.com/tools/adb) on your PC. This command-line tool allows your PC to communicate with your Android device. After installation, add the adb tool to your system's environment variables.
 
 ### Setup
 
 1. **Using a Physical Android Device:**
 
    - Obtain an Android device.
-   - Enable USB debugging by going to `Settings` > `Developer Options` > `USB debugging`. If Developer Options is not visible, go to `Settings` > `About phone` and tap on `Build number` seven times to enable it.
-   - Connect your Android device to your PC using a USB cable.
+   - Enable USB debugging by going to `Settings` > `Developer Options` > `USB debugging`. If `Developer Options` is not visible, go to `Settings` > `About phone` and tap on `Build number` seven times to enable it.
+   - Connect your device to your PC using a USB cable.
+
 
 2. **Using an Android Emulator:**
 
-   - If you do not have access to a physical Android device, download and install [Android Studio](https://developer.android.com/studio).
-   - Use the emulator that comes with Android Studio. You can access the emulator via the Device Manager in Android Studio.
-   - To install apps on the emulator, download the APK files from the internet and drag them onto the emulator window.
+   - If a physical Android device is unavailable, download and install [Android Studio](https://developer.android.com/studio).
+   - Launch the emulator from the Device Manager in Android Studio.
+   - (Optional) You may use our pre-configured emulator snapshot with all required English apps pre-installed. _(Coming soon)_
+   - (Optional) To install additional apps, simply download the APK files and drag them onto the emulator window.
 
 ### Repository Setup
 
@@ -36,28 +38,45 @@
    ./setup.sh
    ```
 
-   You may also need to run the following first:
-   ```sh
-   chmod +x ./setup.sh
-   ``` 
 
-4. Update Configuration:
+3. Rename and configure files:
 
-   Before running the script, rename `config.yaml.example` to `config.yaml`, then open the `config.yaml` file and modify any configuration keys or file paths according to your setup. Ensure that all necessary configurations are correctly specified for your environment.
+   - Rename `config.yaml.example` to `config.yaml` and update it to suit your environment.
+   - Rename `.env.example` to `.env` and fill in required environment variables.
 
-5. Update Environment:
 
-   Please (copy and) rename `.env.example` as `.env` to store necessary environment variable.
+### Hosting Models (Optional)
+SPA-Bench supports several agents that require self-hosted model APIs. These steps are only necessary if you plan to evaluate agents that require self-hosted models.
+1. Hosting MobileAgentV2
 
-6. (Optional)
+   To use MobileAgentV2 without relying on the official Qwen or OpenAI API
+   - Follow the instructions in `./framework/self_hosted_vlm/README.md` to host the model on your own GPU server.
+   - After deployment, set the `QWEN_API_URL` in `.env` to your endpoint, and set `QWEN_API_KEY` to `self_hosted`.
 
-   If you want to evaluate CogAgent, follow the steps in `./framework/models/CogAgent/README.md` to deploy the model in a GPU server.
-   If you want to evaluate GUI-Odyssey, follow the steps in `./framework/models/GUI-Odyssey/README.md` to deploy the model in a GPU server.
-   If you want to evaluate Mobile-Agent-v2 without the official Qwen API, follow the steps in `./framework/self_hosted_vlm/README.md` to deploy the model on a GPU server to obtain an API URL. Then, fill in the `QWEN_API_URL` field in the `.env` file with this URL, and set the `QWEN_API_KEY` to `self_hosted`.
+
+2. Hosting Other Agents (AutoUI / DigiRLAgent / CogAgent / GUI-Odyssey)
+
+   To use these agents, you must host the models yourself. The framework provides tools for both server hosting and client-side integration.
+   - **Model Servers**: Navigate to `./model_server` to find setup scripts, e.g.:
+      ```sh
+      ./setup_autoui_server.sh
+      ./run_autoui_server.sh
+      ```
+   - **Clients**: Model clients live in `./framework/models`, which handle action grounding and trajectory collection.
+   - **Configuration**: After starting the server, update the corresponding `API_URL` fields for each agent in `config.yaml`.
+
+Notes:
+- **Hardware Requirements**: CogAgent and GUI-Odyssey require significant resources. Hosting them typically demands a GPU-equipped server.
+- **Official Repositories**: Depending on your system setup, you may need to make minor adjustments to the provided scripts. For detailed setup instructions and model-specific guidance, please refer to the official repositories:
+     - AutoUI: https://github.com/cooelf/Auto-GUI
+     - DigiRL: https://github.com/DigiRL-agent/digirl
+     - CogAgent: https://github.com/THUDM/CogVLM
+     - GUI-Odyssey: https://github.com/OpenGVLab/GUI-Odyssey/blob/master/Quickstart.md
+   
 
 ## Running the Script
 
-To run the main script, execute the following sample command:
+Activate your environment and start benchmarking with:
 
 ```sh
 conda activate Smartphone-Agent-Benchmark

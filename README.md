@@ -49,7 +49,7 @@ git clone --recurse-submodules https://github.com/ai-agents-2030/SPA-Bench.git
   * Cross-app Tasks – F1-scores: **0.833 (English)**, **0.857 (Chinese)**
 
 ## 🚀 Coming Soon
-- [ ] Full Agent Integrations
+- [x] Full Agent Integrations
 - [ ] Snapshot for Android Emulator
 - [x] Task Collection
 - [x] Agent Framework
