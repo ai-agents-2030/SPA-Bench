@@ -134,7 +134,7 @@ def run_task(agent_name, task, subprocess_list, device):
         else:
             if task.is_cross_app == "Y":
                 command = (
-                    f"python {os.path.join(os.getcwd(),'pipeline/evaluator.py')} "  # NOTE: try to fix file not found error
+                    f"python {os.path.join(os.getcwd(),'pipeline/cross_evaluator.py')} "  # NOTE: try to fix file not found error
                     f"--task_identifier {task.task_identifier} "
                     f"--result_dir {output_dir} "
                     f"--mode {args.mode} "
