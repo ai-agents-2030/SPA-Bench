@@ -1,15 +1,15 @@
 [submodule "framework/models/AppAgent"]
 	path = framework/models/AppAgent
-	url = https://github.com/ai-agents-2030/AppAgent
+	url = https://github.com/ai-agents-2030-modules/AppAgent
 [submodule "framework/models/MobileAgent"]
 	path = framework/models/MobileAgent
-	url = https://github.com/ai-agents-2030/MobileAgent
+	url = https://github.com/ai-agents-2030-modules/MobileAgent
 [submodule "framework/android_env"]
 	path = framework/android_env
-	url = https://github.com/ai-agents-2030/android_env
+	url = https://github.com/ai-agents-2030-modules/android_env
 [submodule "framework/models/AndroidWorld"]
 	path = framework/models/AndroidWorld
-	url = https://github.com/ai-agents-2030/android_world
+	url = https://github.com/ai-agents-2030-modules/android_world
 [submodule "framework/models/AutoDroid"]
 	path = framework/models/AutoDroid
-	url = https://github.com/ai-agents-2030/AutoDroid
+	url = https://github.com/ai-agents-2030-modules/AutoDroid
